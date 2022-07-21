@@ -30,7 +30,7 @@ let data = [
       value: 40,
       addCart: "Adicionar ao carrinho",
       category: ["Acessórios"],
-      tags: ["máscara","máscaras","facial","preto","acessórios","acessórios","proteção","covid","mask","masks","Mask","Masks","black"]
+      tags: ["máscara","máscaras","facial","preto","acessórios","acessório","proteção","covid","mask","masks","Mask","Masks","black"]
     },{
       id: 4,
       img: "./src/img/products/camiseta_preta.svg",
