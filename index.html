@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script defer src="./src/js/database.js"></script>
+    <script defer src="./src/js/script.js"></script>
+    <title>Weartake | Loja de Vestuário</title>
+</head>
+<body>
+    <header>
+        <section class="container">
+            <div class="logo">
+                <h1 id="logoSite">Weartake</h1>
+            </div>
+    
+            <nav class="menu">
+                <ul>
+                    <li>Todos</li>
+                    <li>Acessórios</li>
+                    <li>Calçados</li>
+                    <li>Camisetas</li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main class="container">
+        <section class="secaoProdutos">
+            <ul id="vitrine"></ul>
+        </section>
+
+        <aside>
+            <form class="pesquisarProduto">
+                <input type="text" id="pesquisar" name="pesquisarProduto" placeholder="Digite aqui sua pesquisa" required="true">
+                <button id="buttonPesquisar">Pesquisar</button>
+            </form>
+
+            <section class="carrinhoCompras">
+                <h3>Carrinho de Compras</h3>
+
+                <div class="carrinho">
+                    <ul id="produtosCarrinho"></ul>
+
+                    <div class="carrinhoVazio" id="carrinhoVazio">
+                        <h4>Carrinho vazio</h4>
+                        <span>Adicione itens</span>
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </main>
+
+    <footer class="container">
+        <section id="contato">
+            <h5>Contato</h5>
+
+            <div>
+                <p>R. Leila Diniz, 16 - Maria Antonieta, Pinhais/PR</p>
+                <p>CNPJ 00.000.000/0000-00</p>
+                <p>contato@weartake.com.br</p>
+                <p>(00) 0000-0000</p>
+            </div>
+        </section>
+
+        <section id="redesSociais">
+            <h5>Redes Sociais</h5>
+
+            <div>
+                <p><a>Facebook</a></p>
+                <p><a>Instagram</a></p>
+                <p><a>TikTok</a></p>
+                <p><a>Snapchat</a></p>
+            </div>
+        </section>
+
+        <div id="allRightsReserved"><p>© 2022 Weartake. All rights reserved.</p></div>
+    </footer>
+</body>
+</html>
